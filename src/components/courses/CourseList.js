@@ -36,7 +36,7 @@ const CourseList = ({ courses }) => (
   </table>
 );
 
-CourseList.PropTypes = {
+CourseList.propTypes = {
     course: PropTypes.array.isRequired
 };
 
